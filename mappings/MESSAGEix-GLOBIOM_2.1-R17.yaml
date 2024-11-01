@@ -1,0 +1,94 @@
+model:
+  - MESSAGEix-GLOBIOM 2.1-R17
+
+native_regions:
+  - R17_AFR: MESSAGEix-GLOBIOM 2.1-R17|Sub-Saharan Africa
+  - R17_RCPA: MESSAGEix-GLOBIOM 2.1-R17|Other Centrally Planned Asia
+  - R17_CHN: MESSAGEix-GLOBIOM 2.1-R17|China
+  - R17_KOR: MESSAGEix-GLOBIOM 2.1-R17|Korea
+  - R17_MNG: MESSAGEix-GLOBIOM 2.1-R17|Mongolia
+  - R17_PRK: MESSAGEix-GLOBIOM 2.1-R17|North Korea
+  - R17_EEU: MESSAGEix-GLOBIOM 2.1-R17|Eastern Europe
+  - R17_RUS: MESSAGEix-GLOBIOM 2.1-R17|Russian Federation
+  - R17_RFSU: MESSAGEix-GLOBIOM 2.1-R17|Other Former Soviet Union
+  - R17_LAM: MESSAGEix-GLOBIOM 2.1-R17|Latin America and the Caribbean
+  - R17_MEA: MESSAGEix-GLOBIOM 2.1-R17|Middle East and North Africa
+  - R17_NAM: MESSAGEix-GLOBIOM 2.1-R17|North America
+  - R17_JPN: MESSAGEix-GLOBIOM 2.1-R17|Japan
+  - R17_RPAO: MESSAGEix-GLOBIOM 2.1-R17|Australia and New Zealand
+  - R17_RPAS: MESSAGEix-GLOBIOM 2.1-R17|Other Pacific Asia
+  - R17_SAS: MESSAGEix-GLOBIOM 2.1-R17|South Asia
+  - R17_WEU: MESSAGEix-GLOBIOM 2.1-R17|Western Europe
+
+common_regions:
+  - World:
+    - R17_AFR
+    - R17_RCPA
+    - R17_CHN
+    - R17_KOR
+    - R17_MNG
+    - R17_PRK
+    - R17_EEU
+    - R17_RUS
+    - R17_RFSU
+    - R17_LAM
+    - R17_MEA
+    - R17_NAM
+    - R17_JPN
+    - R17_RPAO
+    - R17_RPAS
+    - R17_SAS
+    - R17_WEU
+
+  # R5 regions
+  - Asia (R5):
+      - R17_SAS
+      - R17_RPAS
+      - R17_RCPA
+      - R17_CHN
+      - R17_KOR
+      - R17_MNG
+      - R17_PRK
+  - Latin America (R5):
+      - R17_LAM
+  - Middle East & Africa (R5):
+      - R17_MEA
+      - R17_AFR
+  - OECD & EU (R5):
+      - R17_WEU
+      - R17_JPN
+      - R17_RPAO
+      - R17_NAM
+      - R17_EEU
+  - Reforming Economies (R5):
+      - R17_RUS
+      - R17_RFSU
+
+  # R10 regions
+  - Africa (R10):
+      - R17_AFR
+  - China+ (R10):
+      - R17_CHN
+      - R17_MNG
+      - R17_PRK
+      - R17_RCPA
+  - Europe (R10):
+      - R17_EEU
+      - R17_WEU
+  - India+ (R10):
+      - R17_SAS
+  - Latin America (R10):
+      - R17_LAM
+  - Middle East (R10):
+      - R17_MEA
+  - North America (R10):
+      - R17_NAM
+  - Pacific OECD (R10):
+      - R17_JPN
+      - R17_RPAO
+  - Reforming Economies (R10):
+      - R17_RUS
+      - R17_RFSU
+  - Rest of Asia (R10):
+      - R17_KOR
+      - R17_RPAS
