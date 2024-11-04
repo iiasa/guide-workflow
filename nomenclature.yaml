@@ -1,7 +1,10 @@
 repositories:
   common-definitions:
     url: https://github.com/IAMconsortium/common-definitions.git/
+    hash: 6953df14a592eea282c13e01deb671056a6582aa
 definitions:
+  variable:
+    repository: common-definitions
   region:
     repository: common-definitions
 mappings:
