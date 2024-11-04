@@ -22,23 +22,23 @@ native_regions:
 
 common_regions:
   - World:
-    - R17_AFR
-    - R17_RCPA
-    - R17_CHN
-    - R17_KOR
-    - R17_MNG
-    - R17_PRK
-    - R17_EEU
-    - R17_RUS
-    - R17_RFSU
-    - R17_LAM
-    - R17_MEA
-    - R17_NAM
-    - R17_JPN
-    - R17_RPAO
-    - R17_RPAS
-    - R17_SAS
-    - R17_WEU
+      - R17_AFR
+      - R17_RCPA
+      - R17_CHN
+      - R17_KOR
+      - R17_MNG
+      - R17_PRK
+      - R17_EEU
+      - R17_RUS
+      - R17_RFSU
+      - R17_LAM
+      - R17_MEA
+      - R17_NAM
+      - R17_JPN
+      - R17_RPAO
+      - R17_RPAS
+      - R17_SAS
+      - R17_WEU
 
   # R5 regions
   - Asia (R5):
