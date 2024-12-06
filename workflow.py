@@ -11,7 +11,9 @@ file_handler = logging.FileHandler(snakemake.log[0], mode="a")
 file_handler.setLevel(logging.DEBUG)
 
 # Define a logging format (optional)
-formatter = logging.Formatter("%(asctime)s %(levelname)s %(message)s", "%Y-%m-%d %H:%M:%S")
+formatter = logging.Formatter(
+    "%(asctime)s %(levelname)s %(message)s", "%Y-%m-%d %H:%M:%S"
+)
 file_handler.setFormatter(formatter)
 
 for logger_name in ["ixmp4", "pyam", "nomenclature", logger.name]:
@@ -30,4 +32,3 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
 logger.info(f"Starting processing for {snakemake.input[0]}")
 main(pyam.IamDataFrame(snakemake.input[0])).to_excel(snakemake.output[0])
 logger.info(f"Successfully finished processing for {snakemake.input[0]}")
-
